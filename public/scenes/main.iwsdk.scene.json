@@ -1,0 +1,125 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "sky": [0.12, 0.16, 0.24, 1],
+      "equator": [0.2, 0.24, 0.32, 1],
+      "ground": [0.08, 0.09, 0.11, 1],
+      "intensity": 1
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "sky": [0.22, 0.28, 0.38, 1],
+      "equator": [0.18, 0.22, 0.3, 1],
+      "ground": [0.1, 0.11, 0.13, 1],
+      "intensity": 1
+    }
+  },
+  "resources": {},
+  "nodes": [
+    {
+      "id": "bench-stage",
+      "name": "Bench Stage",
+      "content": {
+        "type": "asset",
+        "asset": "bench-stage"
+      },
+      "transform": {
+        "position": [0, 0.88, -1.55]
+      }
+    },
+    {
+      "id": "fov-edge-markers",
+      "name": "FOV Edge Markers",
+      "content": {
+        "type": "asset",
+        "asset": "fov-edge-markers"
+      },
+      "transform": {
+        "position": [0, 0, 0]
+      }
+    },
+    {
+      "id": "bench-tile-0",
+      "name": "Bench Tile 1",
+      "content": { "type": "asset", "asset": "bench-tile-0" },
+      "transform": { "position": [-0.31, 1.52, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-1",
+      "name": "Bench Tile 2",
+      "content": { "type": "asset", "asset": "bench-tile-1" },
+      "transform": { "position": [0, 1.52, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-2",
+      "name": "Bench Tile 3",
+      "content": { "type": "asset", "asset": "bench-tile-2" },
+      "transform": { "position": [0.31, 1.52, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-3",
+      "name": "Bench Tile 4",
+      "content": { "type": "asset", "asset": "bench-tile-3" },
+      "transform": { "position": [-0.31, 1.22, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-4",
+      "name": "Bench Tile 5",
+      "content": { "type": "asset", "asset": "bench-tile-4" },
+      "transform": { "position": [0, 1.22, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-5",
+      "name": "Bench Tile 6",
+      "content": { "type": "asset", "asset": "bench-tile-5" },
+      "transform": { "position": [0.31, 1.22, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-6",
+      "name": "Bench Tile 7",
+      "content": { "type": "asset", "asset": "bench-tile-6" },
+      "transform": { "position": [-0.31, 0.92, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-7",
+      "name": "Bench Tile 8",
+      "content": { "type": "asset", "asset": "bench-tile-7" },
+      "transform": { "position": [0, 0.92, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "bench-tile-8",
+      "name": "Bench Tile 9",
+      "content": { "type": "asset", "asset": "bench-tile-8" },
+      "transform": { "position": [0.31, 0.92, -1.85] },
+      "components": { "RayInteractable": {} }
+    },
+    {
+      "id": "status-panel",
+      "name": "Status Panel",
+      "content": { "type": "asset", "asset": "status-panel" },
+      "transform": {
+        "position": [-1.05, 1.55, -2.1],
+        "rotationDeg": [0, 28, 0],
+        "scale": 0.32
+      },
+      "components": {
+        "RayInteractable": {},
+        "ScreenSpace": {
+          "top": "20px",
+          "left": "20px",
+          "width": "28vw",
+          "height": "55%"
+        }
+      }
+    }
+  ]
+}
