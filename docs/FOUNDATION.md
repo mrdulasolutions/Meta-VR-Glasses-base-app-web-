@@ -1,6 +1,8 @@
 # Foundation guide
 
-Use this repo as the **starting point** for new Meta VR Glasses web apps. Copy or fork it, then replace bench content with product content while keeping the glasses contract.
+Use this repo as the **starting point** for new Meta VR Glasses **web** apps. Copy or fork it, then replace bench content with product content while keeping the glasses contract.
+
+For Unity, Unreal, Android, or native work, use [BUILD_FOR_GLASSES.md](./BUILD_FOR_GLASSES.md) and [META.md](./META.md) — this foundation does not scaffold those stacks.
 
 ## What to keep
 

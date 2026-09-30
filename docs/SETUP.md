@@ -1,5 +1,7 @@
 # Setup
 
+For the full Glasses developer map (all platforms, simulators, shipping), see [BUILD_FOR_GLASSES.md](./BUILD_FOR_GLASSES.md).
+
 ## Prerequisites
 
 - **Node.js:** `>=20.19.0` (Node 20 line), `>=22.12.0` (Node 22), or Node 24+ (see `package.json` `engines`)

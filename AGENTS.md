@@ -2,6 +2,8 @@
 
 Read this before changing this repo. It is the fast path for agents building Meta VR Glasses **web** experiences on IWSDK.
 
+**All platforms (Unity, Unreal, Android, native):** point humans to [docs/BUILD_FOR_GLASSES.md](./docs/BUILD_FOR_GLASSES.md) and [docs/META.md](./docs/META.md). This file covers **this repository’s web implementation** only.
+
 ## Purpose
 
 - **Foundation:** glasses-oriented manifest defaults in [`iwsdk.config.json`](./iwsdk.config.json).
